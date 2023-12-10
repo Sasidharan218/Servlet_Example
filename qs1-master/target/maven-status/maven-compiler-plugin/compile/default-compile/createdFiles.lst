@@ -1,0 +1,10 @@
+com\kgisl\qs1\Tab.class
+com\kgisl\qs1\CRUD_DB.class
+com\kgisl\qs1\Array.class
+com\kgisl\qs1\DataSources.class
+com\kgisl\qs1\App.class
+com\kgisl\qs1\Stu_DB.class
+com\kgisl\qs1\PreparedStatements.class
+com\kgisl\qs1\Student.class
+com\kgisl\qs1\JDBC.class
+com\kgisl\qs1\JDBC_withObject.class

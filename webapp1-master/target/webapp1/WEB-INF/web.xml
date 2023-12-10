@@ -1,0 +1,112 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee webapp_4_0.xsd" version="4.0">
+
+  <display-name>Archetype Created Web Application</display-name>
+
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+    <!-- <welcome-file>register.html</welcome-file>
+    <welcome-file>home.jsp</welcome-file> -->
+  </welcome-file-list>
+ 
+
+  <!-- ServletLife -->
+  <servlet>
+    <servlet-name>second</servlet-name>
+    <servlet-class>ServletLife</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>second</servlet-name>
+    <url-pattern>/gotoservletlife</url-pattern>
+  </servlet-mapping>
+
+
+<!-- Servlet Context  -->
+
+  <context-param>
+    <param-name>user_name</param-name>
+    <param-value>Welcome to SpLessons</param-value>
+  </context-param>
+
+  <servlet>
+    <servlet-name>Demo_ServletContext</servlet-name>
+    <servlet-class>DemoServletContext1</servlet-class>
+       <init-param>
+      <param-name>Myteam</param-name>
+      <param-value>Java Team </param-value>
+    </init-param>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Demo_ServletContext</servlet-name>
+    <url-pattern>/gotoservlet1</url-pattern>
+  </servlet-mapping>
+
+<!--  Servlet Config -->
+ <servlet>
+    <servlet-name>DemoServlet_Config</servlet-name>
+    <servlet-class>DemoServletContext2</servlet-class>
+    <init-param>
+      <param-name>Mycompany</param-name>
+      <param-value>KGiSL</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DemoServlet_Config</servlet-name>
+    <url-pattern>/gotoservlet2</url-pattern>
+  </servlet-mapping>
+
+
+  <!-- registeration mapping -->
+  <servlet>
+    <servlet-name>calling_register_class</servlet-name>
+    <servlet-class>Register</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>calling_register_class</servlet-name>
+    <url-pattern>/servlet/Register</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Calling_Registertodb_class</servlet-name>
+    <servlet-class>ApplicationRegister</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Calling_Registertodb_class</servlet-name>
+    <url-pattern>/htmltodb</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Calling_tradehtmltodb_class</servlet-name>
+    <servlet-class>TradetoDB</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Calling_tradehtmltodb_class</servlet-name>
+    <url-pattern>/tradehtmltodb</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>fileimport</servlet-name>
+    <servlet-class>Filetodb</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>fileimport</servlet-name>
+    <url-pattern>/fileimport</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>login</servlet-name>
+    <servlet-class>Loginhtmltodbvalidation</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+
+
+</web-app>

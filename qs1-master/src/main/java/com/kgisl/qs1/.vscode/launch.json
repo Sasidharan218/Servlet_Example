@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - File_reading_linebyline",
+            "request": "launch",
+            "mainClass": "main.java.com.kgisl.qs1.File_reading_linebyline"
+        }
+    ]
+}

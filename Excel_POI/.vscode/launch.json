@@ -1,0 +1,67 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ProjectCsvToBean",
+            "request": "launch",
+            "mainClass": "com.kgisl.excel.ProjectCsvToBean",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - vinesh1",
+            "request": "launch",
+            "mainClass": "com.kgisl.excel.vinesh1",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Formatting",
+            "request": "launch",
+            "mainClass": "com.kgisl.excel.Formatting",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringConcat",
+            "request": "launch",
+            "mainClass": "com.kgisl.excel.StringConcat",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CreateSpreadsheet",
+            "request": "launch",
+            "mainClass": "com.kgisl.excel.CreateSpreadsheet",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CreateWorkBook",
+            "request": "launch",
+            "mainClass": "com.kgisl.excel.CreateWorkBook",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Poi_Samples",
+            "request": "launch",
+            "mainClass": "com.kgisl.excel.Poi_Samples",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "com.kgisl.excel.App",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "com.kgisl.Excel_POI.App",
+            "projectName": "qs1"
+        }
+    ]
+}

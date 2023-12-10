@@ -1,0 +1,214 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Array",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.Array",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Tab",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.Tab",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - POIforgfgRead",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.POIforgfgRead",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Reading_Xls",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.Reading_Xls",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CVSUtilExample",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.CVSUtilExample",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Create_CSV",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.Create_CSV",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OpenCSVWriterExample",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.OpenCSVWriterExample",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OpenCSVParseToBeanExample",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.OpenCSVParseToBeanExample",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OpenCSVReaderReadAllExample",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.OpenCSVReaderReadAllExample",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OpenCSVReaderLineByLineExample",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.OpenCSVReaderLineByLineExample",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - File_1toN",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.File_1toN",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - File_Read_Using_Buffer",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.File_Read_Using_Buffer",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Array_Test",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.Array_Test",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FilePermissionExample",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.FilePermissionExample",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Files",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.Files",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FileStreamsReadnWrite",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.FileStreamsReadnWrite",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Array_Reverse",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.Array_Reverse",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Pattern",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.Pattern",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReadFile",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.ReadFile",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CreateFile",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.CreateFile",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - B",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.B",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test14",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.Test14",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ArrayList5",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.ArrayList5",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CustomArrayList",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.CustomArrayList",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Sample",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.Sample",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Arrays_Method",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.Arrays_Method",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test11",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.Test11",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test6",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.Test6",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CRUD",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.CRUD",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.App",
+            "projectName": "qs1"
+        }
+    ]
+}

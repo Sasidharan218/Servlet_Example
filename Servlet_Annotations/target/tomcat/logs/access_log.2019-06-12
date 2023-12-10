@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [12/Jun/2019:15:17:42 +0530] "GET /sgetrating HTTP/1.1" 200 - http-bio-9090-exec-1 337
+0:0:0:0:0:0:0:1 - - [12/Jun/2019:15:18:24 +0530] "GET /sgetrating HTTP/1.1" 200 - http-bio-9090-exec-4 25

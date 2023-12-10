@@ -1,0 +1,49 @@
+<html>
+<script>
+    function validate() {
+        var name = document.register.userName.value;
+        var password = document.register.userPass.value;
+        var x = document.register.userEmail.value;
+        var atposition = x.indexOf("@");
+        var dotposition = x.lastIndexOf(".");
+        var firstpassword = document.register.userPass.value;
+        var secondpassword = document.register.userPass2.value;
+        if (name == null || name == "") {
+            alert("Name can't be blank or null !!!");
+            return false;
+        }
+        if (atposition < 1 || dotposition < atposition + 2 || dotposition + 2 >= x.length) {
+            alert("Please enter a valid e-mail address !!! ");
+            return false;
+        }
+        if (password.length < 10) {
+            alert("Password must be at least 10 characters long !!!");
+            return false;
+        }
+        if (firstpassword == secondpassword && firstpassword != null) {
+            return true;
+        }
+        else
+        {
+            alert("password must be same!");
+            return false;
+        }
+    }
+</script>
+<body>
+    <form name="register" action="/servlet/Register" method="post" onsubmit="return validate()">
+        Name:<input type="text" name="userName" /><br /><br />
+        Password:<input type="password" name="userPass" /><br /><br />
+        Retype Password:<input type="password" name="userPass2" /><br /><br />
+        Email Id:<input type="text" name="userEmail" /><br /><br />
+        Country:
+        <select name="userCountry">
+            <option>India</option>
+            <option>Pakistan</option>
+            <option>other</option>
+        </select>
+        <br /><br />
+        <input type="submit" value="register" />
+    </form>
+</body>
+</html>

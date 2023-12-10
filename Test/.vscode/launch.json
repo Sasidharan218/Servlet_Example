@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Lastmodified",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.Lastmodified",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<qs1>",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.App",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exact<qs1>",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.Exact",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Folder<qs1>",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.Folder",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MoveSpecific<qs1>",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.MoveSpecific",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SpecificExtensions<qs1>",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.SpecificExtensions",
+            "projectName": "qs1"
+        }
+    ]
+}
